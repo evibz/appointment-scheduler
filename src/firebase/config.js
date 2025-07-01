@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: AIzaSyDKGBSEbqV7IBxEwU9OJ6uJ_NI2OOgv4RA,
-  authDomain: appointment-scheduler-6e7b8.firebaseapp.com,
-  projectId: appointment-scheduler-6e7b8,
-  storageBucket: appointment-scheduler-6e7b8.firebasestorage.app,
-  messagingSenderId: 121171123058,
-  appId: 1:121171123058:web:03c322dfd5cdbdc5c71beb
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
