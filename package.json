@@ -24,8 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://appointment.drvwverlekar.org"
-  }
+  "homepage": "https://appointment.drvwverlekar.org",
   "eslintConfig": {
     "extends": [
       "react-app",
